@@ -1,0 +1,18 @@
+Last login: Mon Sep 25 21:59:53 on ttys000
+hanae@suzukihanaeinoMacBook-Air ~ % cd git_challenge
+cd: no such file or directory: git_challenge
+hanae@suzukihanaeinoMacBook-Air ~ % cd desktop
+hanae@suzukihanaeinoMacBook-Air desktop % cd git_challenge
+hanae@suzukihanaeinoMacBook-Air git_challenge % git add hello_world.txt
+hanae@suzukihanaeinoMacBook-Air git_challenge % git commit -m hello_world.txtを 追加      
+[master 2e7c03e] hello_world.txtを追加
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+hanae@suzukihanaeinoMacBook-Air git_challenge % git add hello_world.txt
+hanae@suzukihanaeinoMacBook-Air git_challenge % git commit -m 日本語訳を追記
+[master 4751810] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+hanae@suzukihanaeinoMacBook-Air git_challenge % git log --oneline
+4751810 (HEAD -> master) 日本語訳を追記
+2e7c03e hello_world.txtを追加
+8cc51b0 hello_world.txtを追加
+hanae@suzukihanaeinoMacBook-Air git_challenge % 
